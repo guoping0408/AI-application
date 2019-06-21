@@ -12,7 +12,9 @@ Hardware Prerequisites:
 		3. NVIDIA TX2 — Inferencing side
 
 Software Dependencies:
-	(See below instructions. **Be aware of any versions of the toolkit that you install on your devices, since it's critical that you install the right version that fit your development environment.**)
+
+(See below instructions. **Be aware of any versions of the toolkit that you install on your devices, since it's critical that you install the right version that fit your development environment.**)
+
 # Training—DIGITS(NVIDIA Deep Learning GPU Training System)
 
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments.
