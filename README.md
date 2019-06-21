@@ -1,5 +1,5 @@
 # Complete AI Workflow Tutorial (Training + Inferencing)
-**This tutorial uses Nvidia DIGITS for training custom deep neural networks and Nvidia DeepStream SDK for inferencing.**
+**This tutorial uses Nvidia DIGITS for training custom deep neural networks and Nvidia DeepStream SDK for inferencing. I will introduce how to use tools provided by NVIDIA to build your first AI application for object detection**
 
 
 ------------
