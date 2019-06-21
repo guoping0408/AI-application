@@ -7,9 +7,9 @@
 
 Hardware Prerequisites:
 
-		1. A Host PC with Unbuntu 16.04 or above installed
-		2. NVIDIA RTX 2080 Ti (recommended) -- Training side
-		3. NVIDIA TX2 -- Inferencing side
+		1. A Host PC with Unbuntu 16.04 or above installed — Training side
+		2. NVIDIA RTX 2080 Ti (recommended) — Training side
+		3. NVIDIA TX2 — Inferencing side
 # Training—DIGITS(NVIDIA Deep Learning GPU Training System)
 
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments.
