@@ -25,19 +25,23 @@ See below instructions.
 
 Assuming you have already used JetPack 4.2 to flash your TX2 or other Jetson, and installed CUDA toolkits on your host PC during the flashing process, you can start installing the driver for your graphic card. It's recommended that you have installed **CUDA 10.0** on your host, since it supports the NVIDIA RTX 2080 Ti graphic card which I use for this tutorial. Other CUDA versions are okay as long as they are compatible with you graphic card.
 
+First, run the below command to search for current nvidia driver version available:
+
 ``` bash
-$ sudo apt-get install -y apt-transport-https curl
-$ cat <<EOF | sudo tee /etc/apt/sources.list.d/cuda.list > /dev/null
-deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64 /
-EOF
-$ curl -s \
- https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub \
- | sudo apt-key add -
-$ cat <<EOF | sudo tee /etc/apt/preferences.d/cuda > /dev/null
-Package: *
-Pin: origin developer.download.nvidia.com
-Pin-Priority: 600
-EOF
-$ sudo apt-get update && sudo apt-get install -y --no-install-recommends cuda-drivers
+$ apt-cache search nvidia-driver
+```
+
+And, install the newest version of nvidia driver version available:
+
+``` bash
+$ sudo apt-get install nvidia-driver-418
 $ sudo reboot
 ```
+
+After rebooting, it should shows something similar on the command line if your NVIDIA driver is installed successfully:
+
+``` bash
+$
+```
+
+
