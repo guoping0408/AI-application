@@ -16,5 +16,5 @@ Hardware Prerequisites:
 
 ## Installing NVIDIA Driver on the Host PC
 
-Assuming you have already use JetPack 4.2 have already flashed your TX2 or other Jetson, and installed CUDA toolkits on your host PC during the flashing process. If you use other version of JetPack, it's recommended that you have use **CUDA 10.0**, since it supports the NVIDIA RTX 2080 Ti graphic card.
+Assuming you have already use JetPack 4.2 to flash your TX2 or other Jetson, and installed CUDA toolkits on your host PC during the flashing process. If you use other version of JetPack, it's recommended that you have use **CUDA 10.0**, since it supports the NVIDIA RTX 2080 Ti graphic card.
 
