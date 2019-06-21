@@ -19,7 +19,7 @@ See below instructions.
 
 # Training—DIGITS(NVIDIA Deep Learning GPU Training System)
 
- > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments.
+ > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments natively.
 
 ### Installing NVIDIA Driver on the Host PC
 
