@@ -15,7 +15,7 @@ Software Dependencies:
 
 See below instructions. 
 
-(**Be aware of any versions of the toolkit that you install on your devices, since it's critical that you install the right version that fit your development environment.**)
+#####(**Be aware of any versions of the toolkit that you install on your devices, since it's critical that you install the right version that fit your development environment.**)
 
 # Training—DIGITS(NVIDIA Deep Learning GPU Training System)
 
