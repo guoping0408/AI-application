@@ -60,4 +60,13 @@ To check your CUDA version:
 $ nvcc --version
 ```
 
+To verify the CUDA toolkit and NVIDIA driver are working, run some tests that come with the CUDA samples:
+
+``` bash
+$ cd /usr/local/cuda/samples
+$ sudo make
+$ cd bin/x86_64/linux/release/
+$ ./deviceQuery
+$ ./bandwidthTest --memory=pinned
+```
 
