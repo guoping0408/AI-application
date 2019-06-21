@@ -41,7 +41,27 @@ $ sudo reboot
 After rebooting, it should shows something similar on the command line if your NVIDIA driver is installed successfully:
 
 ``` bash
-$
+$ nvidia-smi
+Fri Jun 21 17:44:33 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.67       Driver Version: 418.67       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:01:00.0  On |                  N/A |
+| 41%   33C    P8     6W / 260W |    625MiB / 10986MiB |      3%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1042      G   /usr/lib/xorg/Xorg                           247MiB |
+|    0      1475      G   compiz                                        91MiB |
+|    0      5153      G   ...uest-channel-token=11217275582148305812   129MiB |
+|    0     28577      C   python2                                      153MiB |
++-----------------------------------------------------------------------------+
 ```
 
 
