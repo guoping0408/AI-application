@@ -3,9 +3,9 @@
 
 Prerequisites:
 
-A Host PC installed with Unbuntu 16.04 or above
-NVIDIA GTX 2080 Ti (recommended) -- Training side
-NVIDIA TX2 -- Inferencing side
+    A Host PC installed with Unbuntu 16.04 or above
+    NVIDIA GTX 2080 Ti (recommended) -- Training side
+    NVIDIA TX2 -- Inferencing side
 
 **Table of Contents**
 
