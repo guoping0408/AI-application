@@ -70,3 +70,5 @@ $ ./deviceQuery
 $ ./bandwidthTest --memory=pinned
 ```
 
+(to be continued)
+
