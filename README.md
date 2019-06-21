@@ -13,6 +13,6 @@ Hardware Prerequisites:
 		
 #DIGITS(NVIDIA Deep Learning GPU Training System)
 
- > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments. Hopefully this will save you significant amout of time debugging the dependencies issues.
+ > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments.
 
 
