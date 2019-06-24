@@ -259,6 +259,10 @@ Things get exciting when we can use our own models which we spent hours training
 After downloading the snapshot model and extract it, you should get files similar to these:
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/snapshots.png">
 
+The most important files we need are **.caffemodel** and **deploy.prototxt** files.
+
+Here is the catch. Since the default support network in DeepStream is ResNet, we need to use a custom parsing function for DetectNet that we used in DIGITS for training. Therefore, we have to get the parsing fuction for DetectNet from [https://github.com/AastaNV/DeepStream](https://github.com/AastaNV/DeepStream).
+
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
 
 
