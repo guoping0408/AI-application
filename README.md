@@ -275,6 +275,22 @@ $ make -j8
 
 After finished, you will see a **.so** files (e.g. **libnvparsebbox.so**). This is our parsing function. At this point, after we've got our parsing function for DetectNet ready, it's just one step away from integrating the workflow of Deepstream and DIGITS for deep learning!
 
+To utilize our custom parsing function for DectNet, we simply have to modify the config.txt to point to the path to our parsing function so that the **nvgstiva-app** will use custom parsing function instead of the default ResNet one. Here is the sample code of [primary] group in the config.txt:
+
+
+[primary-gie]
+enable=1
+net-scale-factor=1
+**model-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel**
+**proto-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/deploy.prototxt**
+model-cache=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel_b4_fp16.cache
+**labelfile-path=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/labels.txt**
+
+
+The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt**.
+
+
+
 
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
