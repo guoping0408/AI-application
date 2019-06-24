@@ -137,7 +137,7 @@ PYTHON_LIB := /usr/lib/x86_64-linux-gnu
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 ```
 
-Replace the CUDA architecture setting in the Makefile.config by the following to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
+Replace the CUDA architecture setting in the Makefile.config with the following lines to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
 
 ``` bash
 CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
@@ -148,7 +148,8 @@ CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
                                       -gencode arch=compute_61,code=sm_61 \
                                       -gencode arch=compute_61,code=compute_61
 ```
-**Finally, we build the caffe using the following commands:**
+
+**Finally, we build Caffe using the following commands:**
 
 ``` bash
 $ make all -j8
@@ -157,12 +158,12 @@ $ make runtest -j8
 ```
 (where the '8' in the above commands can be the nubmer of cores in your computer)
 
-Caffe should be configured and built. Now we have to do the last things for Caffe. First, open the file using gedit:
+Caffe should be configured and built. Now we have to do the last thing for Caffe. First, open the file using gedit:
 
 ``` bash
 $ gedit ~/.bashrc
 ```
-**Then, inside this file, you can replace the paths below to reflect you own**
+**Then, add the following two lines inside this file. You can change the paths below to reflect you own**
 
 ``` bash
 export CAFFE_ROOT=~/caffe		(Here, I cloned caffe to my home directory, replace the paths below to reflect you own)
@@ -209,4 +210,6 @@ $ ./digits-devserver
 DIGITS will store yout training datasets and model snapshots under the `digits/jobs` directory.
 
 To use interactive DIGITS, open your web browser and navigate to `0.0.0.0:5000`.
+
+## USING DIGITS
 
