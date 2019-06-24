@@ -123,8 +123,8 @@ $ cd /usr/lib/x86_64-linux-gnu
 Then adjust the Makefile.config file to fit your environment. In this tutorial (assuming you have the same environment as mine), we uncomment:
 
 ``` bash
-# OPENCV_VERSION := 3    ——> OPENCV_VERSION := 3
-# WITH_PYTHON_LAYER := 1 ——> WITH_PYTHON_LAYER := 1
+# OPENCV_VERSION := 3       ——> OPENCV_VERSION := 3
+# WITH_PYTHON_LAYER := 1    ——> WITH_PYTHON_LAYER := 1
 ```
 
 And we modify the Makefile.config again by replacing lines "PYTHON_LIB :=" and "INCLUDE_DIRS :=" with the following:
