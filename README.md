@@ -97,3 +97,16 @@ Clone the caffe-0.15 branch by the following command:
 ``` bash
 $ git clone -b caffe-0.15 https://github.com/NVIDIA/caffe
 ```
+
+Then build the caffe using the following instructions:
+
+``` bash
+$ cp Makefile.config.example Makefile.config
+```
+
+Then adjust the Makefile.config file that fit your environment. Here, we uncomment:
+``` bash
+# OPENCV_VERSION := 3  ——> OPENCV_VERSION := 3
+```
+
+
