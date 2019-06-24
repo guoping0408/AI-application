@@ -15,7 +15,7 @@
 
 See instructions below. 
 
-(Be aware of any **version of the toolkits** that you will install on your devices, since it's critical that you install the right version that fit your development environment.)
+(Be aware of any **version of the toolkits** that you will install on your devices, since it's critical that you install the right version which fits your development environment.)
 
 # Flashing your TX2 with Jetpack 4.2
 
