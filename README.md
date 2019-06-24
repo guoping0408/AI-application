@@ -90,7 +90,7 @@ $ sudo dpkg -i libcudnn<version>_amd64.deb
 $ sudo dpkg -i libcudnn-dev_<version>_amd64.deb
 ```
 
-### Installing Caffe
+### Installing Caffe (a bit complicated)
 
 Clone the caffe-0.15 branch to your desired directory by the following command:
 
@@ -115,6 +115,9 @@ $ sudo apt-get install --no-install-recommends libboost-all-dev
 $ sudo apt-get install libatlas-base-dev
 $ sudo apt-get install python-dev
 $ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+$ cd /usr/lib/x86_64-linux-gnu
+**$ sudo ln -s libhdf5_serial.so<version> libhdf5.so**
+**$ sudo ln -s libhdf5_serial_hl.so.8.0.2 libhdf5_hl.so**
 ```
 
 Then adjust the Makefile.config file to fit your environment. In this tutorial (assuming you have the same environment as mine), we uncomment:
