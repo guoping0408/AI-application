@@ -259,6 +259,7 @@ Things get exciting when we can use our own models which we spent hours training
 After downloading the snapshot model and extract it, you should get files similar to these:
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/snapshots.png">
 
+
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
 
 
