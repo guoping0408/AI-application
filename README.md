@@ -287,11 +287,17 @@ model-cache=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter
 **labelfile-path=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/labels.txt**
 
 
-The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt**.
+The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt files. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt** and specify its path in the config.txt. It's as simple as the following:
 
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
 
+Finally, when we run the nvgstiva-app using the new config.txt, for example,
 
+``` bash
+nvgstiva-app -c ~/Desktop/DeepStream/configs/DetectNet.txt -i ~/Downloads/Dogs.mp4
+```
 
+We should see that our TX2 successfully detects dogs in our video!
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
 
