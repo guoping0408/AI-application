@@ -137,7 +137,7 @@ PYTHON_LIB := /usr/lib/x86_64-linux-gnu
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 ```
 
-Replace the CUDA architecture setting by the following to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
+Replace the CUDA architecture setting in the Makefile.config by the following to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
 
 ``` bash
 CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
