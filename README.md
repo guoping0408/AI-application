@@ -232,4 +232,21 @@ DeepStream SDK brings deep neural networks and other complex processing tasks in
 
 To utilize our models trained on DIGITS, we have to install DeepStream SDK **on our TX2**. First, download the DeepStream SDK version 1.5 from the website [https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads) **on your TX2. (Notice, we are moving from working on host PC for training deep neural networks to working on TX2 for INFERENCING!)**
 
+Then navigate to the DeepStream package directory and extract the contents into the file system:
+
+``` bash
+$ sudo tar xpvf DeepStream_SDK_on_Jetson_1.5_pre-release.tbz2
+$ sudo tar xpvf deepstream_sdk_on_jetson .tbz2 -C /
+$ sudo tar xpvf deepstream_sdk_on_jetson_models.tbz2 -C /
+$ sudo ldconfig
+```
+DeepStream SDK is installed completely. Now let's test it by running the following command:
+
+``` bash
+nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt
+```
+
+
+
+
 
