@@ -261,7 +261,21 @@ After downloading the snapshot model and extract it, you should get files simila
 
 The most important files we need are **.caffemodel** and **deploy.prototxt** files.
 
-Here is the catch. Since the default support network in DeepStream is ResNet, we need to use a custom parsing function for DetectNet that we used in DIGITS for training. Therefore, we have to get the parsing fuction for DetectNet from [https://github.com/AastaNV/DeepStream](https://github.com/AastaNV/DeepStream).
+Here is the catch. Since the default support network in DeepStream is ResNet, we need to use a custom parsing function for DetectNet that we used in DIGITS for training. Therefore, we have to get the parsing fuction for DetectNet from [https://github.com/AastaNV/DeepStream](https://github.com/AastaNV/DeepStream). Clone the following repo to get the DetectNet parsing function:
+
+``` bash
+$ git clone https://github.com/AastaNV/DeepStream
+```
+
+The parsing function is in the parser_detectnet folder. Therefore, go to the parser_detectnet folder and build the function:
+``` bash
+$ cd DeepStream/parser_detectnet
+$ make -j8
+```
+
+After finished, you will see a **.so** files (e.g. libnvparsebbox.so). This is our parsing function. At this point, after we've got our parsing function for DetectNet ready, it's just one step away from integrating the workflow of Deepstream and DIGITS for deep learning!
+
+
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
 
