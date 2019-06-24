@@ -26,7 +26,7 @@ $ sudo apt install ./sdkmanager-[version].[build#].deb
 $ sdkmanager
 ```
 
-At this point, you will see a GUI for your Jetpack SDK Manager showing up. Follow the instruction shown on the GUI to complete flashing your TX2 and installing prerequistes softwares on your host PC.
+At this point, you will see a GUI for your Jetpack SDK Manager showing up. Follow the instruction shown on the GUI to complete flashing your TX2 and installing prerequistes softwares on your host PC (or you can see some graphical instruction on the website [https://developer.ridgerun.com/wiki/index.php?title=Installing_JetPack_4.2_-_Nvidia_SDK_Manager](https://developer.ridgerun.com/wiki/index.php?title=Installing_JetPack_4.2_-_Nvidia_SDK_Manager)).
 
 # Training——DIGITS(NVIDIA Deep Learning GPU Training System)
 
