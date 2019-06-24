@@ -172,7 +172,7 @@ export PYTHONPATH=~/caffe/python:$PYTHONPATH
 
 ### Install DIGITS!
 
-Finally, we can start installing DIGTIS on our host computer for training! Let's start by cloning the DIGITS repo from GitHub and get access to some package repositories::
+Finally, we can start installing DIGTIS on our host computer for training! Let's start by cloning the DIGITS repo from GitHub and get access to some package repositories:
 
 ``` bash
 $ git clone https://github.com/nvidia/DIGITS
@@ -188,6 +188,9 @@ wget "$ML_REPO_PKG" -O /tmp/ml-repo.deb && sudo dpkg -i /tmp/ml-repo.deb && rm -
 # Download new list of packages
 sudo apt-get update
 
-Install some dependencies
+# Install some dependencies
 sudo apt-get install --no-install-recommends git graphviz python-dev python-flask python-flaskext.wtf python-gevent python-h5py python-numpy python-pil python-pip python-scipy python-tk
+
+# Install some python packages
+sudo pip install -r $DIGITS_ROOT/requirements.txt
 ```
