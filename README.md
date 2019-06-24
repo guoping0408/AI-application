@@ -116,8 +116,8 @@ $ sudo apt-get install libatlas-base-dev
 $ sudo apt-get install python-dev
 $ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 $ cd /usr/lib/x86_64-linux-gnu
-***$ sudo ln -s libhdf5_serial.so<version> libhdf5.so***
-***$ sudo ln -s libhdf5_serial_hl<version> libhdf5_hl.so***
+***$ sudo ln -s libhdf5_serial.so<version> libhdf5.so***	(Replace the <version> to versions on your computer)
+***$ sudo ln -s libhdf5_serial_hl<version> libhdf5_hl.so***	(Replace the <version> to versions on your computer)
 ```
 
 Then adjust the Makefile.config file to fit your environment. In this tutorial (assuming you have the same environment as mine), we uncomment:
