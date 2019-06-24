@@ -4,7 +4,7 @@
 <p align="center">
 	<img src="https://github.com/guoping0408/AI-application/blob/master/Images/result.gif">
 </p>
-------------
+
 
 
 ### Hardware Prerequisites:
@@ -320,7 +320,9 @@ nvgstiva-app -c ~/Desktop/DeepStream/configs/DetectNet.txt -i ~/Downloads/Dogs.m
 
 We should see that our TX2 successfully detects dogs in our video!
 
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/result.gif">
+<p align="center">
+	<img src="https://github.com/guoping0408/AI-application/blob/master/Images/result.gif">
+</p>
 
 
 
