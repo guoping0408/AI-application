@@ -17,6 +17,12 @@ See instructions below.
 
 (Be aware of any **version of the toolkits** that you will install on your devices, since it's critical that you install the right version that fit your development environment.)
 
+# Flashing your TX2 with Jetpack 4.2
+
+Let's start by setting up your TX2. First go to NVIDIA website to download the latest Jetpack.
+
+[https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack)
+
 # Training——DIGITS(NVIDIA Deep Learning GPU Training System)
 
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments natively.
