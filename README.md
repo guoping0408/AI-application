@@ -246,6 +246,16 @@ DeepStream SDK is installed completely. Now let's test it by running the followi
 $ nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt
 ```
 
+Alternatively, you can run the sample on your own video:
+
+``` bash
+$ nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt \
+-i /home/nvidia/<path_to_your_own_video>
+```
+
+## Using DeepStream to load trained models from DIGITS
+Things get exciting when we can use our own models that we spent hours training to see the effect! So let's see how to load our models using DeepDtream.
+
 
 
 
