@@ -124,7 +124,8 @@ Then adjust the Makefile.config file to fit your environment. In this tutorial (
 
 ``` bash
 # OPENCV_VERSION := 3       ——> OPENCV_VERSION := 3
-
+	(We are using OpenCV 3 because Jetpack 4.2 installed this version as default)
+	
 # WITH_PYTHON_LAYER := 1    ——> WITH_PYTHON_LAYER := 1
 ```
 
