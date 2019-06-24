@@ -155,3 +155,18 @@ $ make all -j8
 $ make test -j8
 $ make runtest -j8
 ```
+(where the '8' in the above commands can be the nubmer of cores in your computer)
+
+Caffe should be configured and built. Now we have to do the last things for Caffe:
+
+``` bash
+$ geidt ~/.bashrc
+```
+
+**Inside this file, we replace the paths below to reflect you own**
+
+``` bash
+export CAFFE_ROOT=~/caffe	(Here, I cloned caffe to my home directory, eplace the paths below to reflect you own)
+
+```
+
