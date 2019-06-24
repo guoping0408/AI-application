@@ -28,7 +28,7 @@ $ sdkmanager
 
 At this point, you will see a GUI for your Jetpack SDK Manager showing up. Follow the instruction shown on the GUI to complete flashing your TX2 and installing prerequistes softwares on your host PC (or you can see some graphical instruction on the website [https://developer.ridgerun.com/wiki/index.php?title=Installing_JetPack_4.2_-_Nvidia_SDK_Manager](https://developer.ridgerun.com/wiki/index.php?title=Installing_JetPack_4.2_-_Nvidia_SDK_Manager)).
 
-# Training——DIGITS(NVIDIA Deep Learning GPU Training System)
+# Training—DIGITS(NVIDIA Deep Learning GPU Training System)
 
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments natively.
  
@@ -226,7 +226,7 @@ To use interactive DIGITS, open your web browser and navigate to `0.0.0.0:5000`.
 
 
 
-# Inferencing——DeepStream
+# Inferencing—DeepStream
 
 DeepStream SDK brings deep neural networks and other complex processing tasks into a stream processing pipeline for computer vision and intelligent video analytics.
 
