@@ -124,6 +124,7 @@ Then adjust the Makefile.config file to fit your environment. In this tutorial (
 
 ``` bash
 # OPENCV_VERSION := 3       ——> OPENCV_VERSION := 3
+
 # WITH_PYTHON_LAYER := 1    ——> WITH_PYTHON_LAYER := 1
 ```
 
@@ -131,6 +132,7 @@ And we modify the Makefile.config again by replacing lines "PYTHON_LIB :=" and "
 
 ``` bash
 PYTHON_LIB := /usr/lib/x86_64-linux-gnu
+
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 ```
 
