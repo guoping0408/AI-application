@@ -59,6 +59,7 @@ Fri Jun 21 17:44:33 2019
 | 41%   33C    P8     6W / 260W |    625MiB / 10986MiB |      3%      Default |
 +-------------------------------+----------------------+----------------------+
 ```
+### CUDA 10.0
 
 To check your CUDA version:
 
@@ -76,6 +77,7 @@ $ ./deviceQuery
 $ ./bandwidthTest --memory=pinned
 ```
 
+### Installing cuDNN
 
-**(to be continued...)**
+Download the cuDNN runtime library and cuDNN developer library that fit your environment. In this tutorial, we pick the one for CUDA 10.0 and Ubuntu 16.04
 
