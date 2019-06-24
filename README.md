@@ -127,9 +127,10 @@ Then adjust the Makefile.config file to fit your environment. In this tutorial (
 # WITH_PYTHON_LAYER := 1 ——> WITH_PYTHON_LAYER := 1
 ```
 
-And we modify the Makefile.config again by replacing lines "INCLUDE_DIRS :=" and ""
+And we modify the Makefile.config again by replacing lines "PYTHON_LIB :=" and "INCLUDE_DIRS :=" with the following:
 
 ``` bash
+PYTHON_LIB := /usr/lib/x86_64-linux-gnu
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 ```
 
