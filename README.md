@@ -289,7 +289,7 @@ model-cache=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter
 
 The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt files. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt** and specify its path in the config.txt. It's as simple as the following:
 
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/screenshot.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/label.png">
 
 Finally, when we run the nvgstiva-app using the new config.txt, for example,
 
