@@ -98,13 +98,27 @@ Clone the caffe-0.15 branch to your desired directory by the following command:
 $ git clone -b caffe-0.15 https://github.com/NVIDIA/caffe
 ```
 
-Then build the caffe using the following instructions:
+Then **build** the caffe using the following instructions to meet the prerequistes for installing caffe:
 
+First, run the commands:
 ``` bash
 $ cp Makefile.config.example Makefile.config
 ```
 
-Then adjust the Makefile.config file that fit your environment. Here, we uncomment:
+And, 
+
+``` bash
+sudo apt-get install git
+sudo apt-get install libprotobuf-dev libleveldb-dev libopencv-dev libsnappy-dev
+sudo apt-get install libhdf5-serial-dev protobuf-compiler
+sudo apt-get install --no-install-recommends libboost-all-dev
+sudo apt-get install libatlas-base-dev
+sudo apt-get install python-dev
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+```
+
+Then adjust the Makefile.config file to fit your environment. In this tutorial (assuming you have the same environment as mine), we uncomment:
+
 ``` bash
 # OPENCV_VERSION := 3  ——> OPENCV_VERSION := 3
 ```
@@ -120,5 +134,3 @@ CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
                                       -gencode arch=compute_61,code=sm_61 \
                                       -gencode arch=compute_61,code=compute_61
 ```
-
-
