@@ -172,4 +172,10 @@ export PYTHONPATH=~/caffe/python:$PYTHONPATH
 
 ### Install DIGITS!
 
+Finally, we can start installing DIGTIS on our host computer for training! Let's start by cloning the DIGITS repo from GitHub:
+
+``` bash
+$ git clone https://github.com/nvidia/DIGITS
+```
+
 
