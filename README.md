@@ -126,6 +126,12 @@ Then adjust the Makefile.config file to fit your environment. In this tutorial (
 # OPENCV_VERSION := 3  ——> OPENCV_VERSION := 3
 ```
 
+And we modify the Makefile.config again by replacing lines "INCLUDE_DIRS :=" and ""
+
+``` bash
+INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+```
+
 Replace the CUDA architecture setting by the following to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
 
 ``` bash
