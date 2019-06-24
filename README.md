@@ -83,3 +83,7 @@ Download the cuDNN runtime library and cuDNN developer library that fit your env
 
 	https://developer.nvidia.com/cudnn
 
+``` bash
+$ sudo dpkg -i libcudnn<version>_amd64.deb
+$ sudo dpkg -i libcudnn-dev_<version>_amd64.deb
+```
