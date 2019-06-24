@@ -243,7 +243,7 @@ $ sudo ldconfig
 DeepStream SDK is installed completely. Now let's test it by running the following command:
 
 ``` bash
-nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt
+$ nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt
 ```
 
 
