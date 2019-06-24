@@ -166,7 +166,7 @@ $ geidt ~/.bashrc
 **Inside this file, we replace the paths below to reflect you own**
 
 ``` bash
-export CAFFE_ROOT=~/caffe	(Here, I cloned caffe to my home directory, replace the paths below to reflect you own)
+export CAFFE_ROOT=~/caffe		(Here, I cloned caffe to my home directory, replace the paths below to reflect you own)
 export PYTHONPATH=~/caffe/python:$PYTHONPATH
 ```
 
