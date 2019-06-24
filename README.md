@@ -22,6 +22,11 @@ See below instructions.
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments natively.
  
 ### Installing some software prerequisites on the host PC before installing DIGITS:
+		1. Nvidia driver
+		2. CUDA 10.0
+		3. cuDNN
+		4. Caffe
+		
 ### Installing NVIDIA Driver on the Host PC
 
 Assuming you have already used JetPack 4.2 to flash your TX2 or other Jetson, and installed CUDA toolkits on your host PC during the flashing process, you can start installing the driver for your graphic card. It's recommended that you have installed **CUDA 10.0** on your host, since it supports the NVIDIA RTX 2080 Ti graphic card which I use for this tutorial. Other CUDA versions are okay as long as they are compatible with you graphic card.
