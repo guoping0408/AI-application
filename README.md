@@ -19,7 +19,7 @@ See instructions below.
 
 # Flashing your TX2 with Jetpack 4.2
 
-Let's start by setting up your TX2. First go to NVIDIA website to download the latest Jetpack installer [https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack). After finish downloading, type the following command to install and launch the Jetpack SDK Manager:
+Let's start by setting up your TX2. First go to NVIDIA website to download the latest Jetpack installer [https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack) on your host PC. After finish downloading, type the following command to install and launch the Jetpack SDK Manager at the directory where your Jetpack installer is located:
 
 ``` bash
 $ sudo apt install ./sdkmanager-[version].[build#].deb
