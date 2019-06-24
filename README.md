@@ -306,7 +306,7 @@ The above configuration code simply provides a path to our extracted .caffemodel
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/label.png">
 
-Also notice that I've comment out the **model-cache=file:** above. After your first run, your TX2 will create a **.cache** file in the same folder as the **.so** file. The .cache file will store some key information so that when you run the secnod time, we no longer need to wait for a long time while initiating the inference process. (When you uncomment the model-cache=file, remember to replace my .cache file with yours.)
+Also notice that I've comment out the **model-cache=file:** above. After your first run, your TX2 will create a **.cache** file in the same folder as the **.caffemodel** file. The .cache file will store some key information so that when you run the secnod time, we no longer need to wait for a long time while initiating the inference process. (When you uncomment the model-cache=file, remember to replace my .cache file with yours.)
 
 
 Finally, when we run the nvgstiva-app using the new config.txt, for example,
