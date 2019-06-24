@@ -19,9 +19,7 @@ See instructions below.
 
 # Flashing your TX2 with Jetpack 4.2
 
-Let's start by setting up your TX2. First go to NVIDIA website to download the latest Jetpack.
-
-[https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack)
+Let's start by setting up your TX2. First go to NVIDIA website to download the latest Jetpack [https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/jetpack). 
 
 # Training——DIGITS(NVIDIA Deep Learning GPU Training System)
 
