@@ -109,7 +109,7 @@ Then adjust the Makefile.config file that fit your environment. Here, we uncomme
 # OPENCV_VERSION := 3  ——> OPENCV_VERSION := 3
 ```
 
-Replace the CUDA architecture setting by the following to avoid the nvcc fatal : Unsupported gpu architecture 'compute_20' issue:
+Replace the CUDA architecture setting by the following to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
 
 ``` bash
 CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
