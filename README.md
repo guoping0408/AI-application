@@ -281,10 +281,24 @@ To utilize our custom parsing function for DectNet, we simply have to modify the
 [primary-gie]
 enable=1
 net-scale-factor=1
-**model-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel**
-**proto-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/deploy.prototxt**
-model-cache=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel_b4_fp16.cache
-**labelfile-path=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/labels.txt**
+
+# Provide path to our DIGITS model
+model-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel
+proto-file=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/deploy.prototxt
+# model-cache=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/snapshot_iter_38600.caffemodel_b4_fp16.cache
+labelfile-path=file:///home/nvidia/Desktop/DeepStream/Model/DetectNet/labels.txt
+.
+.
+.
+# Set the parse-func=0 to use the custom parsing function
+parse-func=0
+parse-bbox-func-name=parse_bbox_custom_detectnet
+
+# Provide the path to our DetectNet parsing function
+parse-bbox-lib-name=/home/nvidia/Desktop/DeepStream/parser_detectnet/libnvparsebbox.so
+is-classifier=0
+output-bbox-name=bboxes
+output-blob-names=coverage
 ```
 
 The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt files. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt** and specify its path in the config.txt. It's as simple as the following:
