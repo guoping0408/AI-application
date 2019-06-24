@@ -230,6 +230,6 @@ To use interactive DIGITS, open your web browser and navigate to `0.0.0.0:5000`.
 
 DeepStream SDK brings deep neural networks and other complex processing tasks into a stream processing pipeline for computer vision and intelligent video analytics.
 
-To utilize our models trained on DIGITS, we have to install DeepStream SDK on our TX2. First, download the DeepStream SDK version 1.5 from the website [https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads)
+To utilize our models trained on DIGITS, we have to install DeepStream SDK on our TX2. First, download the DeepStream SDK version 1.5 from the website [https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads) **on your TX2.**
 
 
