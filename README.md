@@ -254,7 +254,7 @@ $ nvgstiva-app -c ${HOME}/configs/PGIE-FP16-CarType-CarMake-CarColor.txt \
 ```
 
 ## Using DeepStream to load trained models from DIGITS
-Things get exciting when we can use our own models which we spent hours training to see the effect! So, let's see how to load our models using DeepDtream.
+Things get exciting when we can use our own models we spent hours training to see the effect! So, let's see how to load our models using DeepDtream.
 
 After downloading the snapshot model and extract it, you should get files similar to these:
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/snapshots.png">
