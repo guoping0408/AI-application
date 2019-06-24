@@ -169,7 +169,7 @@ $ make runtest -j8
 ```
 (where the '8' in the above commands can be the nubmer of cores in your computer)
 
-Caffe should be configured and built. Now we have to do the last thing for Caffe. First, open the file using gedit:
+Caffe should be configured and built. Now we have to do one last thing for Caffe. First, open the file using gedit:
 
 ``` bash
 $ gedit ~/.bashrc
