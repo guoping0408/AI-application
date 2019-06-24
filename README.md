@@ -273,7 +273,7 @@ $ cd DeepStream/parser_detectnet
 $ make -j8
 ```
 
-After finished, you will see a **.so** files (e.g. libnvparsebbox.so). This is our parsing function. At this point, after we've got our parsing function for DetectNet ready, it's just one step away from integrating the workflow of Deepstream and DIGITS for deep learning!
+After finished, you will see a **.so** files (e.g. **libnvparsebbox.so**). This is our parsing function. At this point, after we've got our parsing function for DetectNet ready, it's just one step away from integrating the workflow of Deepstream and DIGITS for deep learning!
 
 
 
