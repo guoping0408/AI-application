@@ -17,7 +17,7 @@ See below instructions.
 
 (Be aware of any **version of the toolkits** that you will install on your devices, since it's critical that you install the right version that fit your development environment.)
 
-# Training—DIGITS(NVIDIA Deep Learning GPU Training System)
+# Training——DIGITS(NVIDIA Deep Learning GPU Training System)
 
  > **note**: To avoid most dependency issues while using DIGITS and to allow users have more control of their installation environment, I give the somewhat more advanced ways of setting up the DIGITS environments natively.
  
@@ -169,4 +169,7 @@ $ geidt ~/.bashrc
 export CAFFE_ROOT=~/caffe		(Here, I cloned caffe to my home directory, replace the paths below to reflect you own)
 export PYTHONPATH=~/caffe/python:$PYTHONPATH
 ```
+
+### Install DIGITS!
+
 
