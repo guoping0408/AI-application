@@ -1,7 +1,5 @@
 # Complete AI Workflow Tutorial (Training + Inferencing)
-**This tutorial uses NVIDIA DIGITS for training custom deep neural networks and Nvidia DeepStream SDK for inferencing. I will introduce how to use tools provided by NVIDIA to build your first AI application for object detection.
-
-In the end, we will train a dogs detection model and use it to detect any dogs shown in the provided video**
+**This tutorial uses NVIDIA DIGITS for training custom deep neural networks and Nvidia DeepStream SDK for inferencing. I will introduce how to use tools provided by NVIDIA to build your first AI application for object detection. In the end, we will train a dogs detection model and use it to detect any dogs shown in the provided video**
 ------------
 
 
