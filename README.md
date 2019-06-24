@@ -301,9 +301,13 @@ output-bbox-name=bboxes
 output-blob-names=coverage
 ```
 
+
 The above configuration code simply provides a path to our extracted .caffemodel and deploy.prototxt files. In addition, you have to create a label files yourself. In case of this tutorial, create an empty text file and simply write "Dogs" and save it as **labels.txt** and specify its path in the config.txt. It's as simple as the following:
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/label.png">
+
+Also notice that I've comment out the **model-cache=file:** above. After your first run, your TX2 will create a **.cache** file in the same folder as the **.so** file. The .cache file will store some key information so that when you run the secnod time, we no longer need to wait for a long time while initiating the inference process. (When you uncomment the model-cache=file, remember to replace my .cache file with yours.)
+
 
 Finally, when we run the nvgstiva-app using the new config.txt, for example,
 
