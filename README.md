@@ -79,7 +79,7 @@ $ ./bandwidthTest --memory=pinned
 
 ### Installing cuDNN
 
-Download the cuDNN runtime library and cuDNN developer library that fit your environment. In this tutorial, we pick the one for CUDA 10.0 and Ubuntu 16.04
+Download the cuDNN runtime library and cuDNN developer library that fit your environment. In this tutorial, we pick the one for CUDA 10.0 and Ubuntu 16.04 from the webpage below
 
-https://developer.nvidia.com/cudnn
+	https://developer.nvidia.com/cudnn
 
