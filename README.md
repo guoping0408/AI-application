@@ -151,7 +151,7 @@ CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
 **Finally, we build the caffe using the following commands:**
 
 ``` bash
-$ make all
-$ make test
-$ make runtest
+$ make all -j8
+$ make test -j8
+$ make runtest -j8
 ```
