@@ -206,5 +206,7 @@ $ ./digits-devserver
  |___/___\___|___| |_| |___/ 6.0-dev
 ```
 
+DIGITS will store yout training datasets and model snapshots under the `digits/jobs` directory.
 
+To use interactive DIGITS, open your web browser and navigate to `0.0.0.0:5000`.
 
