@@ -92,7 +92,7 @@ $ sudo dpkg -i libcudnn-dev_<version>_amd64.deb
 
 ### Installing Caffe
 
-Clone the caffe-0.15 branch by the following command:
+Clone the caffe-0.15 branch to your desired directory by the following command:
 
 ``` bash
 $ git clone -b caffe-0.15 https://github.com/NVIDIA/caffe
