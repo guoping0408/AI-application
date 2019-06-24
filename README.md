@@ -157,13 +157,12 @@ $ make runtest -j8
 ```
 (where the '8' in the above commands can be the nubmer of cores in your computer)
 
-Caffe should be configured and built. Now we have to do the last things for Caffe:
+Caffe should be configured and built. Now we have to do the last things for Caffe. First, open the file using gedit:
 
 ``` bash
-$ geidt ~/.bashrc
+$ gedit ~/.bashrc
 ```
-
-**Inside this file, we replace the paths below to reflect you own**
+**Then, inside this file, you can replace the paths below to reflect you own**
 
 ``` bash
 export CAFFE_ROOT=~/caffe		(Here, I cloned caffe to my home directory, replace the paths below to reflect you own)
