@@ -254,7 +254,7 @@ $ tar -xzvf coco.tar.gz
 The files you have downloaded includes pictures of different groups, which are inside the `images` folder, and their corresponding KITTI meta, which describes their bounding boxes information, inside the `labels` folder.
 
 
-Now, go back to the DIGITS main page, we select the option `Detection` in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
+Now, go back to the DIGITS main page, we select the `Object Detection` option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/digit_detect_dataset.png">
 
 After that, type your own username then key in the path of image data and the label data. Below is the sample of the form. Remember to modify the data location to the folder where you extracted the dog dataset:
