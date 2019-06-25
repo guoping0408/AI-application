@@ -257,7 +257,7 @@ The files you have downloaded includes pictures of different groups, which are i
 Now, go back to the DIGITS main page, we select the `Object Detection` option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/digit_detect_dataset.png">
 
-After that, type your own username then key in the path of image data and the label data. Below is the sample of the form. Remember to modify the data location to the folder where you extracted the dog dataset:
+After that, type your own username then key in the path of image data and the label data. Below is the sample of the form. Remember to modify the data location to make it suitable for your computer:
 
 * Training image folder:  `coco/train/images/dog`
 * Training label folder:  `coco/train/labels/dog`
