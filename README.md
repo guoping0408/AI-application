@@ -213,11 +213,11 @@ sudo pip install -r $DIGITS_ROOT/requirements.txt
 ### Starting the DIGITS server by the command:
 
 ``` bash
-$ ./digits-devserver
+$ ./digits-devserver 
   ___ ___ ___ ___ _____ ___
  |   \_ _/ __|_ _|_   _/ __|
  | |) | | (_ || |  | | \__ \
- |___/___\___|___| |_| |___/ 6.0-dev
+ |___/___\___|___| |_| |___/ 6.1.1
 ```
 
 DIGITS will store yout training datasets and model snapshots under the `digits/jobs` directory.
