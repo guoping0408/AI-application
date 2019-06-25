@@ -226,7 +226,11 @@ To use interactive DIGITS, open your web browser and navigate to `0.0.0.0:5000`.
 
 ## USING DIGITS
 
-**(to be continued)**
+When you first open the DIGITS home screen by typing `0.0.0.0:5000` on your browser, you would see something like this:
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/digit_home.png">
+
+Here is the start of our training phrase. To train a deep neural network, the most critical thing is data. So, the first thing we do is to tell DIGITS where our data is. Since this guide is for object detection, we select that option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/digit_detect_dataset.png">
 
 
 # Inferencing—DeepStream
