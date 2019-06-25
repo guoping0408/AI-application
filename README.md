@@ -302,9 +302,23 @@ Lastly, fill the path of your downloaded GoogleNet like this
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
 
-Fill in your own Group name and Model name then click `Create` to start training! It's will take about 3 hours depending on your working environment. And, the result would be like this:
+Fill in your own Group Name and Model Name then click `Create` to start training! It's will take about 3 hours depending on your working environment. And, the result would be like this:
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/finish.png">
+
+Now, before we start testing our trained model, we have to fix a bug in DIGITS. Find the root where the DIGITS is installed and go to `digits/digits/extensions/view/boundingBox/`. There is a file called `view_template.html`. Open it using text editor and replace the line starting with "$scope.bboxes =" with the following:
+
+``` bash
+$scope.bboxes = {{ bboxes | safe }};
+```
+Now, you can test the performance of your model on DIGITS.
+
+Go to the bottom of your finished model page. Select `Bounding Boxes` as your visualization method. Key in the path of your testing image, then click `Test One`:
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/testing.png">
+
+The result should look like the following:
+
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/testONE.png">
 
 # Inferencing—DeepStream
 
