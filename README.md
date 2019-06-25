@@ -265,10 +265,17 @@ After that, type your own username then key in the path of image data and the la
 * Validation label folder:  `coco/val/labels/dog`
 * Pad image (Width x Height):  `640 x 640`
 * Custom classes:  `dontcare, dog`
-* Group Name:  `MS-COCO`
-* Dataset Name:  `coco-dog`
+* Group Name:  `COCO`
+* Dataset Name:  `COCO-DOG`
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/path1.png">
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/path2.png">
+
+Then click `Create`. After finished, you have imported your dataset into DIGITS successfully and you are ready to do trainning.
+
+#### Training a Model Using DIGITS
+Go back to your DIGITS home page. This time select `Model` tab instead, then select the `Object Detection` option in the drop-down menu on the right hand side.
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/model_page.png">
+
 
 
 # Inferencing—DeepStream
