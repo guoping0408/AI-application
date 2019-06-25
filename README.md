@@ -289,18 +289,18 @@ Make the following settings in the form:
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create1.png">
 
-For the network, select `Custom Network` then copy and paste the [detectnet.prototxt](https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/detectnet.prototxt) from the repo.
+For the network, select `Custom Network` then copy and paste the content of the [detectnet.prototxt](https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/detectnet.prototxt) from the repo.
 
 In addition, download the pre-trained weights from Googlenet as this will help speed up and stabilize training significantly using the following command at your desired directory:
 
 ``` bash
-wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+$ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 
 ```
 
+Finally, fill the path of your downloaded GoogleNet like this
+
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
-
-
 
 
 # Inferencing—DeepStream
