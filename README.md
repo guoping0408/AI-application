@@ -231,9 +231,17 @@ When you first open the DIGITS home screen by typing `0.0.0.0:5000` on your brow
 
 ### Training with DIGITS
 
-Here is the start of our training phrase. To train a deep neural network, the most critical thing is data. So, the first thing we do is to tell DIGITS where and what our data is. Since this guide is for object detection, we select that option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
+Here is the start of our **training phrase**. To train a deep neural network, the most critical thing is data. So, the first thing we do is to tell DIGITS where and what our data is. Since this guide is for object detection, we will have to get the data for object detection.In object detection, the computer not only has to tell what the oject is, but also where that oject is located in the picture; therefore, our data must describe the coordinates or the bounding boxes of the objects in the pictures.
+
+#### Download the Sample Detection Data
+
+
+
+
+we select that option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/digit_detect_dataset.png">
 
+After typing your own username you would see 
 
 # Inferencing—DeepStream
 
