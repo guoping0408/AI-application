@@ -231,11 +231,25 @@ When you first open the DIGITS home screen by typing `0.0.0.0:5000` on your brow
 
 ### Training with DIGITS
 
-Here is the start of our **training phrase**. To train a deep neural network, the most critical thing is data. So, the first thing we do is to tell DIGITS where and what our data is. Since this guide is for object detection, we will have to get the data for object detection.In object detection, the computer not only has to tell what the oject is, but also where that oject is located in the picture; therefore, our data must describe the coordinates or the bounding boxes of the objects in the pictures.
+Here is the start of our **training phrase**. To train a deep neural network, the most critical thing is data. So, the first thing we do is to tell DIGITS where and what our data is. Since this guide is for object detection, we will have to get the data for object detection. In object detection, the computer not only has to tell what the oject is, but also where that oject is located in the picture; therefore, our data must describe the coordinates or the bounding boxes of the objects in the pictures.
 
 #### Download the Sample Detection Data
 
+There are several object detection data format, for example, KITTI, MS-COCO, and others. Regardless, DIGITS specifically uses KITTI metadata format for ingesting the detection bounding labels. The KITTI metadata format looks like the following:
 
+``` bash
+cup 0.00 0 0.00 398.40 249.60 769.60 620.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+cup 0.00 0 0.00 243.20 288.00 243.20 288.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+cup 0.00 0 0.00 723.20 779.20 723.20 779.20 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+```
+
+For the purpose of the tutorial, download and extract sample MS-COCO classes already in DIGITS/KITTI format using the commad at your desired directory:
+
+``` bash
+$ wget --no-check-certificate https://nvidia.box.com/shared/static/tdrvaw3fd2cwst2zu2jsi0u43vzk8ecu.gz -O coco.tar.gz
+
+$ tar -xzvf coco.tar.gz
+```
 
 
 we select that option in the drop-down menu on the right hand side. Make sure you are at the **Datasets** page.
