@@ -322,6 +322,9 @@ The result should look like the following:
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/testONE.jpg">
 
+Whoohoo!! We've made it! Now we have a working model for inference. You can download your completed model package from the previous page. We will start talking about how to do inferencing with your model below!
+
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/download.png">
 
 # Inferencing—DeepStream
 
