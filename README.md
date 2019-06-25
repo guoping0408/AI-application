@@ -314,6 +314,8 @@ $scope.bboxes = {{ bboxes | safe }};
 Now, you can test the performance of your model on DIGITS.
 
 Go to the bottom of your finished model page. Select `Bounding Boxes` as your visualization method. Key in the path of your testing image, then click `Test One`:
+
+
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/testing.png">
 
 The result should look like the following:
