@@ -318,7 +318,7 @@ Go to the bottom of your finished model page. Select `Bounding Boxes` as your vi
 
 The result should look like the following:
 
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/testONE.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/testONE.jpg">
 
 # Inferencing—DeepStream
 
