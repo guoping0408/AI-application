@@ -267,7 +267,8 @@ After that, type your own username then key in the path of image data and the la
 * Custom classes:  `dontcare, dog`
 * Group Name:  `MS-COCO`
 * Dataset Name:  `coco-dog`
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path1.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path2.png">
 
 
 # Inferencing—DeepStream
