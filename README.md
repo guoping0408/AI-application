@@ -267,8 +267,8 @@ After that, type your own username then key in the path of image data and the la
 * Custom classes:  `dontcare, dog`
 * Group Name:  `COCO`
 * Dataset Name:  `COCO-DOG`
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path1.png">
-<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path2.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/path.png">
+
 
 Then click `Create`. After finished, you have imported your dataset into DIGITS successfully and you are ready to do trainning.
 
@@ -302,8 +302,9 @@ Lastly, fill the path of your downloaded GoogleNet like this
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
 
-Fill in your own Group name and Model name then click `Create` to start training!
+Fill in your own Group name and Model name then click `Create` to start training! It's will take about 3 hours depending on your working environment. And, the result would be like this:
 
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/finish.png">
 
 # Inferencing—DeepStream
 
