@@ -288,8 +288,18 @@ Make the following settings in the form:
   * Gamma:  `0.99`
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create1.png">
+
+For the network, select `Custom Network` then copy and paste the [detectnet.prototxt](https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/detectnet.prototxt) from the repo.
+
+In addition, download the pre-trained weights from Googlenet as this will help speed up and stabilize training significantly using the following command at your desired directory:
+
+``` bash
+wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+
+```
+
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
-Model_create1
+
 
 
 
