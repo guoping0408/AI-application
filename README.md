@@ -298,9 +298,11 @@ $ wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 
 ```
 
-Finally, fill the path of your downloaded GoogleNet like this
+Lastly, fill the path of your downloaded GoogleNet like this
 
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
+
+Fill in your own Group name and Model name then click `Create` to start training!
 
 
 # Inferencing—DeepStream
