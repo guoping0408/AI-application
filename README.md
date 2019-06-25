@@ -276,6 +276,21 @@ Then click `Create`. After finished, you have imported your dataset into DIGITS 
 Go back to your DIGITS home page. This time select `Model` tab instead, then select the `Object Detection` option in the drop-down menu on the right hand side.
 <img src="https://github.com/guoping0408/AI-application/blob/master/Images/model_page.png">
 
+Make the following settings in the form:
+
+* Select Dataset:  `COCO-DOG`
+* Training epochs:  `100`
+* Subtract Mean:  `none`
+* Solver Type:  `Adam`
+* Base learning rate:  `2.5e-05`
+* Select `Show advanced learning options`
+  * Policy:  `Exponential Decay`
+  * Gamma:  `0.99`
+
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create1.png">
+<img src="https://github.com/guoping0408/AI-application/blob/master/Images/Model_create2.png">
+Model_create1
+
 
 
 # Inferencing—DeepStream
