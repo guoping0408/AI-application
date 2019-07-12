@@ -148,6 +148,9 @@ And we modify the Makefile.config again by replacing lines "PYTHON_LIB :=" and "
 PYTHON_LIB := /usr/lib/x86_64-linux-gnu
 
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+
+PYTHON_INCLUDE := /usr/include/python2.7 \
+        /usr/local/lib/python2.7/dist-packages/numpy/core/include
 ```
 
 Replace the CUDA architecture setting in the Makefile.config with the following lines to avoid the "nvcc fatal : Unsupported gpu architecture 'compute_20' issue":
@@ -167,6 +170,7 @@ CUDA_ARCH := -gencode arch=compute_30,code=sm_30 \
 ``` bash
 $ make all -j8
 $ make test -j8
+$ make pycaffe
 $ make runtest -j8
 ```
 (where the '8' in the above commands can be the nubmer of cores in your computer)
